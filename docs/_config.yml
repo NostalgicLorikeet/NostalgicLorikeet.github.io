@@ -3,7 +3,8 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: index
-      description: Something on here...
+        title: {{ page.name }}
+        layout: index
+        description: Something on here...
 
 layouts_dir: _layouts
