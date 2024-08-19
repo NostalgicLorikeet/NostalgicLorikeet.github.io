@@ -1,6 +1,7 @@
 ---
 title: Home
 description: Welcome to hitscan.org
+omitTitle: true
 ---
 Index...?
 please
