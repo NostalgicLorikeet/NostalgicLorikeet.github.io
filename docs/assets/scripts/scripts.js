@@ -4,7 +4,7 @@ const styleChooser = document.getElementById("styleDropdown");
 const stylesheets = [];
 const stylenames = [];
 const styletag = document.getElementById("styletag");
-let styleCurrent = styletag.getAttribute("href").replace(".css","");
+let styleCurrent = styletag.getAttribute("href").replace(".css","").replace("/assets/styles/","");
 const toolbar = document.getElementById("toolbar");
 const toolbarAddButton = document.getElementById("toolbarAdd");
 const toolbarDeleteButton = document.getElementById("toolbarDelete");
@@ -43,7 +43,7 @@ function pageload() {
 	} else {
 		toolbarDeleteButton.style.display = "grid";
 	}*/
-	if (window.location.href == "https://hitscan.org" || window.location.href == "https://hitscan.org/index.html" || window.location.href == "https://hitscan.org/index" ) {
+	if (window.location.href == "https://www.hitscan.org" || window.location.href == "https://www.hitscan.org/index.html" || window.location.href == "https://www.hitscan.org/index") {
 		logo.setAttribute("id","logoHolderHome");
 	} else {
 		logo.setAttribute("id","logoHolder");
