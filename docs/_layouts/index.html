@@ -40,7 +40,7 @@
 		<div id="bannerHolder">
 			<div id="banner">
 				<div id="logoHolder">
-					<a href=""><img src="/assets/logo.png" id="logo"></a>
+					<a href="/"><img src="/assets/logo.png" id="logo"></a>
 				</div>
 				<div id="splashHolder" style="display:none;">
 					<a href="#" id="splashLink"></a>
@@ -60,7 +60,9 @@
 			</div>
 			<div id="mainBody">
 				<main>
+					{% if page.omitTitle == false %}
 					<h1>{{ page.title }}</h1>
+					{% endif %}
 					{{ content }}
 				</main>
 			</div>

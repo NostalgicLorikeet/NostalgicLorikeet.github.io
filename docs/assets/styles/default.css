@@ -47,11 +47,13 @@
 		text-align: center;
 	}
 	a {
-		color: rgb(225,0,225);
+		color: rgb(255,0,255);
 	}
 	a:hover {
-		color: rgb(255,0,255);
 		text-decoration: underline;
+	}
+	p {
+		margin-bottom: 13px;
 	}
 }
 #body {

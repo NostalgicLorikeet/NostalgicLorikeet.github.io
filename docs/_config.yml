@@ -6,5 +6,6 @@ defaults:
         title: {{ page.name }}
         layout: index
         description: Something on here...
+        omitTitle: false;
 
 layouts_dir: _layouts
