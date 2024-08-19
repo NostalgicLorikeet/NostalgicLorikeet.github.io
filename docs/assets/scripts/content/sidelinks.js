@@ -1,0 +1,15 @@
+twitterLink = new sidelink("https://twitter.com/Nosstalgic");
+twitterLink.setIcon("twitter.ico");
+discordLink = new sidelink("https://discord.com/users/302167693556187137");
+discordLink.setIcon("discord.ico");
+new sidelink("https://youtube.com/NostalgicLorikeet");
+new sidelink("https://github.com/NostalgicLorikeet");
+new sidelink("https://archive.org/details/@nostalgicxd");
+newgroundsLink = new sidelink("https://nostalgic0.newgrounds.com");
+newgroundsLink.setIcon("https://newgrounds.com/favicon.ico");
+new sidelink("https://www.last.fm/user/moles0359875535");
+atabookLink = new sidelink("https://nostalgiclorikeet.atabook.org");
+atabookLink.setIcon("https://atabook.org/favicon.ico");
+new sidelink("https://steamcommunity.com/id/obamagaming/");
+emailLink = new sidelink("mailto:miles@hitscan.org");
+emailLink.setIcon("email.png");
