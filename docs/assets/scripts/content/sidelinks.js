@@ -9,7 +9,7 @@ newgroundsLink = new sidelink("https://nostalgic0.newgrounds.com");
 newgroundsLink.setIcon("https://newgrounds.com/favicon.ico");
 new sidelink("https://www.last.fm/user/moles0359875535");
 atabookLink = new sidelink("https://nostalgiclorikeet.atabook.org");
-atabookLink.setIcon("https://atabook.org/favicon.ico");
+atabookLink.setIcon("https://hitscan.org/assets/favicons/atabook.ico");
 new sidelink("https://steamcommunity.com/id/obamagaming/");
 emailLink = new sidelink("mailto:miles@hitscan.org");
 emailLink.setIcon("email.png");
