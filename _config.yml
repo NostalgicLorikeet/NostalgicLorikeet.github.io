@@ -5,4 +5,4 @@ defaults:
     values:
       layout: "index"
 
-layouts_dir: _layouts
+layouts_dir: ./_layouts
