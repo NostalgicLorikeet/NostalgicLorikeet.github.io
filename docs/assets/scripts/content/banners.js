@@ -26,5 +26,8 @@ new banner("geometry_01.png");
 new banner("geometry_02.png");
 new banner("geometry_03.png");
 new banner("cones_01.png");
+last.setGradient("255,255,255");
 new banner("cones_02.png");
+last.setGradient("255,255,255");
 new banner("cones_03.png");
+last.setGradient("255,255,255");
