@@ -140,7 +140,8 @@ function styleChange(sheet) {
 	styletag.setAttribute("href","/assets/styles/default.css");
 	styleCurrent = sheet;
 	styleListBuild();
-	localStorage.setItem('styleCurrent', sheet);
+	//localStorage.setItem('styleCurrent', sheet);
+	localStorage.setItem('styleCurrent', "default");
 }
 
 function styleListBuild() {
