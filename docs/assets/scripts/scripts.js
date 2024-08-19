@@ -44,7 +44,7 @@ function pageload() {
 	} else {
 		toolbarDeleteButton.style.display = "grid";
 	}*/
-	if (window.location.href == "https://www.hitscan.org" || window.location.href == "https://www.hitscan.org/index.html" || window.location.href == "https://www.hitscan.org/index") {
+	if (window.location.href == "https://www.hitscan.org/" || window.location.href == "https://www.hitscan.org/index.html/" || window.location.href == "https://www.hitscan.org/index/") {
 		logo.setAttribute("id","logoHolderHome");
 	} else {
 		logo.setAttribute("id","logoHolder");
@@ -136,7 +136,8 @@ function styleAdd(name, sheet) {
 }
 
 function styleChange(sheet) {
-	styletag.setAttribute("href", "/assets/styles/" + sheet + ".css");
+	//styletag.setAttribute("href", "/assets/styles/" + sheet + ".css");
+	styletag.setAttribute("href","/assets/styles/default.css");
 	styleCurrent = sheet;
 	styleListBuild();
 	localStorage.setItem('styleCurrent', sheet);
