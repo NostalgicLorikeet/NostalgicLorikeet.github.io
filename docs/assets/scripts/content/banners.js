@@ -22,7 +22,9 @@ new bannerUnclickableSplash("missing_texture.png","Aaaaah! My textures... they'r
 last.setWeight(0.1);
 new banner("missing_texture.png");
 new bannerClickable("guestbook_01.png","https://nostalgiclorikeet.atabook.org");
+last.setGradient(white);
 new bannerClickable("guestbook_01_shifted.png","https://nostalgiclorikeet.atabook.org");
+last.setGradient(white);
 last.setWeight(0.25);
 new banner("geometry_01.png");
 new banner("geometry_02.png");
