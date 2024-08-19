@@ -24,12 +24,12 @@
 	padding: 8px;
 	img {
 		height: 140px;
-		filter: drop-shadow(0px 0px 5px rgb(228,38,0));
+		filter: opacity(0.5);
 	}	
 	
 	img:hover {
 		filter: opacity(1);
-		filter: drop-shadow(0px 0px 7px rgb(228,38,0));
+		filter: drop-shadow(0px 0px 6px rgb(228,38,0));
 	}
 }
 #logoHolderHome {
