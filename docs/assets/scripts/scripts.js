@@ -24,6 +24,7 @@ let coneClick = 0.01;
 
 //Do these after page load
 function pageload() {
+	styletag.setAttribute("href","/assets/styles/default.css");
 	/*if (typeof localStorage.styleCurrent == 'undefined') {
 		localStorage.setItem('styleCurrent', styleCurrent);
 	} else {
