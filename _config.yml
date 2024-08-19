@@ -3,6 +3,6 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "index"
+      layout: index
 
 layouts_dir: _layouts
