@@ -24,7 +24,7 @@ let coneClick = 0.01;
 
 //Do these after page load
 function pageload() {
-	if (typeof localStorage.styleCurrent == 'undefined') {
+	/*if (typeof localStorage.styleCurrent == 'undefined') {
 		localStorage.setItem('styleCurrent', styleCurrent);
 	} else {
 		styleChange(localStorage.getItem('styleCurrent'));
@@ -32,7 +32,7 @@ function pageload() {
 	stylesList();
 	styleListBuild();
 	let styleLoading = document.getElementById("styleLoading");
-	/*if (typeof localStorage.toolbarFloat == 'undefined') {
+	if (typeof localStorage.toolbarFloat == 'undefined') {
 		localStorage.setItem('toolbarFloat', "true");
 	} else {
 		toolbarFloat = localStorage.getItem('toolbarFloat');
