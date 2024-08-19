@@ -158,7 +158,7 @@ body {
 	background-position: top left;
 }
 #banner {
-	background: linear-gradient(90deg, rgba(var(--gradientSetting),1) 0%, rgba(var(--gradientSetting),0.95) 30%, rgba(var(--gradientSetting),0) 100%), var(--image-bg);
+	background: linear-gradient(90deg, rgba(var(--gradientSetting),1) 0%, rgba(var(--gradientSetting),0.95) 30%, rgba(var(--gradientSetting),0.25) 100%), var(--image-bg);
 	background-size: cover;
 	display: flex;
 }
