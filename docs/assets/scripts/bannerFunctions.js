@@ -81,7 +81,7 @@ class banner {
 		currentBanner = this;
 		this.docChange();
 		styleDefault();
-		document.querySelector(':root').style.setProperty('--image-bg', "url(\"../banners/" + this.image + "\")");
+		document.querySelector(':root').style.setProperty('--image-bg', "url(\"/assets/banners/" + this.image + "\")");
 		document.querySelector(':root').style.setProperty('--logoDropShadowSetting', "rgba(" + this.dropShadowColor + ",1)");
 		document.querySelector(':root').style.setProperty('--gradientSetting', this.gradientColor);
 	}
@@ -116,7 +116,7 @@ class bannerClickable extends banner {
 		document.getElementById("splashHolderWordless").style.display = "grid";
 		document.getElementById("splashSpan").style.display = "grid";
 		document.getElementById("splashHolder").style.display = "none";
-		document.getElementById("splashSpan").setAttribute("href",this.url);
+		document.getElementById("splashLinkWordless").setAttribute("href",this.url);
 	}
 	
 	set() {

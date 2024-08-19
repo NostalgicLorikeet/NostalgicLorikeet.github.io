@@ -16,6 +16,8 @@ last
 prev
 */
 
+let white = "255,255,255"
+
 new bannerUnclickableSplash("missing_texture.png","Aaaaah! My textures... they're gone...","255,255,255");
 last.setWeight(0.1);
 new banner("missing_texture.png");
@@ -26,8 +28,10 @@ new banner("geometry_01.png");
 new banner("geometry_02.png");
 new banner("geometry_03.png");
 new banner("cones_01.png");
-last.setGradient("255,255,255");
+last.setGradient(white);
 new banner("cones_02.png");
-last.setGradient("255,255,255");
+last.setGradient(white);
 new banner("cones_03.png");
-last.setGradient("255,255,255");
+last.setGradient(white);
+new banner("stars.png");
+last.setGradient(white);
