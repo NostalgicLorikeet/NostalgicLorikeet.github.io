@@ -17,4 +17,3 @@ prev
 */
 
 new bannerUnclickableSplash("","\"Aaaaah! My textures... they're gone...\"","255,255,255");
-new bannerSplash("","","\"Aaaaah! My textures... they're gone...\"","255,255,255");
