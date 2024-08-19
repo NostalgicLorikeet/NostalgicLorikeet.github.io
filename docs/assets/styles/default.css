@@ -42,6 +42,17 @@
 	padding: 6px;
 	font-size: 90%;
 	color: white;
+	h1 {
+		text-decoration: underline;
+		text-align: center;
+	}
+	a {
+		color: rgb(225,0,225);
+	}
+	a:hover {
+		color: rgb(255,0,255);
+		text-decoration: underline;
+	}
 }
 #body {
 	background: rgba(0,0,15,1);

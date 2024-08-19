@@ -43,12 +43,12 @@ function pageload() {
 		toolbarAddButton.style.display = "grid";
 	} else {
 		toolbarDeleteButton.style.display = "grid";
-	}*/
+	}
 	if (window.location.href == "https://www.hitscan.org/" || window.location.href == "https://www.hitscan.org/index.html/" || window.location.href == "https://www.hitscan.org/index/") {
 		logo.setAttribute("id","logoHolderHome");
 	} else {
 		logo.setAttribute("id","logoHolder");
-	}
+	}*/
 	reloadWeights();
 	bannerSelector().set();
 	/*function reloadSideSplash() {
