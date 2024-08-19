@@ -16,8 +16,6 @@ last
 prev
 */
 
-let white = "255,255,255"
-
 new bannerUnclickableSplash("missing_texture.png","Aaaaah! My textures... they're gone...","255,255,255");
 last.setWeight(0.1);
 new banner("missing_texture.png");
