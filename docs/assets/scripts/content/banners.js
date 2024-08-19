@@ -19,12 +19,12 @@ prev
 new bannerUnclickableSplash("missing_texture.png","Aaaaah! My textures... they're gone...","255,255,255");
 last.setWeight(0.1);
 new banner("missing_texture.png");
-new bannerClickable("guestbook_00.png","https://nostalgiclorikeet.atabook.org");
-new bannerClickable("guestbook_00_shifted.png","https://nostalgiclorikeet.atabook.org");
+new bannerClickable("guestbook_01.png","https://nostalgiclorikeet.atabook.org");
+new bannerClickable("guestbook_01_shifted.png","https://nostalgiclorikeet.atabook.org");
 last.setWeight(0.25);
 new banner("geometry_01.png");
 new banner("geometry_02.png");
 new banner("geometry_03.png");
-new banner("cones_03.png");
-new banner("cones_03.png");
+new banner("cones_01.png");
+new banner("cones_02.png");
 new banner("cones_03.png");
