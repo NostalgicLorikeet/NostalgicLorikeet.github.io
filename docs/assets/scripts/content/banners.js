@@ -35,3 +35,4 @@ new banner("cones_03.png");
 last.setGradient(white);
 new banner("stars.png");
 last.setGradient(white);
+new banner("clay_cat.png");

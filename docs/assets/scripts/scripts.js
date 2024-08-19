@@ -60,6 +60,9 @@ function pageload() {
 		let img = document.createElement("img");
 		img.setAttribute("src",sidelinks[i].icon);
 		let a = document.createElement("a");
+		if (sidelinks[i].url.includes("discord") {
+			a.setAttribute("title","If profile doesn't load, username is \"NostalgicLorikeet\"");
+		}
 		a.setAttribute("href",sidelinks[i].url);
 		a.appendChild(img);
 		rightbarLinkList.appendChild(a);
@@ -227,61 +230,61 @@ class sidelink {
 	}
 }
 
-	function loadActivity() {
-		activityLoaded = 0;
-		activityList.innerHTML = '';
-		for (let i = activityPosition*4; i < (activityPosition*4) + 4; i++) {
-			activityLoaded++;
-			let section = document.createElement("div");
-			section.setAttribute("class","activitySection");
-			let date = document.createElement("div");
-			date.setAttribute("class","activityDate");
-			let month;
-			switch(activities[i].month) {
-				case 1:
-					month = "January";
-					break;
-				case 2:
-					month = "February";
-					break;
-				case 3:
-					month = "March";
-					break;
-				case 4:
-					month = "April";
-					break;
-				case 5:
-					month = "May";
-					break;
-				case 6:
-					month = "June";
-					break;
-				case 7:
-					month = "July";
-					break;
-				case 8:
-					month = "August";
-					break;
-				case 9:
-					month = "September";
-					break;
-				case 10:
-					month = "October";
-					break;
-				case 11:
-					month = "November";
-					break;
-				case 12:
-					month = "December";
-					break;
-			}
-			dateText = document.createTextNode(month + " " + activities[i].day + ", " + activities[i].year);
-			date.appendChild(dateText);
-			section.appendChild(date);
-			let content = document.createElement("div");
-			content.setAttribute("class","activityContent");
-			content.innerHTML = activities[i].content;
-			section.appendChild(content);
-			activityList.appendChild(section);
+function loadActivity() {
+	activityLoaded = 0;
+	activityList.innerHTML = '';
+	for (let i = activityPosition*4; i < (activityPosition*4) + 4; i++) {
+		activityLoaded++;
+		let section = document.createElement("div");
+		section.setAttribute("class","activitySection");
+		let date = document.createElement("div");
+		date.setAttribute("class","activityDate");
+		let month;
+		switch(activities[i].month) {
+			case 1:
+				month = "January";
+				break;
+			case 2:
+				month = "February";
+				break;
+			case 3:
+				month = "March";
+				break;
+			case 4:
+				month = "April";
+				break;
+			case 5:
+				month = "May";
+				break;
+			case 6:
+				month = "June";
+				break;
+			case 7:
+				month = "July";
+				break;
+			case 8:
+				month = "August";
+				break;
+			case 9:
+				month = "September";
+				break;
+			case 10:
+				month = "October";
+				break;
+			case 11:
+				month = "November";
+				break;
+			case 12:
+				month = "December";
+				break;
 		}
+		dateText = document.createTextNode(month + " " + activities[i].day + ", " + activities[i].year);
+		date.appendChild(dateText);
+		section.appendChild(date);
+		let content = document.createElement("div");
+		content.setAttribute("class","activityContent");
+		content.innerHTML = activities[i].content;
+		section.appendChild(content);
+		activityList.appendChild(section);
 	}
+}
