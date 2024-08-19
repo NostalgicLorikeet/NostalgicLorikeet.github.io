@@ -60,7 +60,7 @@ function pageload() {
 		let img = document.createElement("img");
 		img.setAttribute("src",sidelinks[i].icon);
 		let a = document.createElement("a");
-		if (sidelinks[i].url.includes("discord") {
+		if (sidelinks[i].url.includes("discord")) {
 			a.setAttribute("title","If profile doesn't load, username is \"NostalgicLorikeet\"");
 		}
 		a.setAttribute("href",sidelinks[i].url);
