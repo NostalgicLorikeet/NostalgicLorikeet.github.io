@@ -62,7 +62,7 @@
 					{% if page.omitTitle == false %}
 					<h1>{{ page.title }}</h1>
 					{% endif %}
-				<main>
+				<main id="content">
 					{{ content }}
 				</main>
 			</div>
@@ -118,5 +118,6 @@
 				loadActivity();
 			}
 		}
+		{{ page.scripts }}
 	</script>
 </html>

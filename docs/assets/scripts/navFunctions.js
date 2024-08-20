@@ -27,9 +27,8 @@ function loadNavLinks() {
 }
 
 class sbSection {
-	constructor(name,sitemapDescription,sitemapImage,onSidebar,onSitemap) {
+	constructor(name,sitemapImage,onSidebar,onSitemap) {
 		this.name = name;
-		this.sitemapDescription = sitemapDescription;
 		this.sitemapImage = sitemapImage;
 		this.onSidebar = onSidebar;
 		this.onSitemap = onSitemap;
@@ -106,7 +105,7 @@ function buildSidebar() {
 						currentLinkIcon.setAttribute("src",entries[i].entries[a].altIcon);
 						currentLink.appendChild(currentLinkIcon);
 					}
-					compareLink = "https://hitscan.org" + entries[i].entries[a].url;
+					compareLink = "https://www.hitscan.org" + entries[i].entries[a].url;
 					if (window.location.href == compareLink) {
 						currentLinkTile.setAttribute("id","sidebarTileCurrent");
 					}

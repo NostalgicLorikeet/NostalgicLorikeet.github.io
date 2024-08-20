@@ -11,6 +11,48 @@
 		text-decoration: underline;
 	}
 }
+#mainBody {
+	width: 76%;
+	padding: 6px;
+	font-size: 90%;
+	color: white;
+	* {
+		
+	}
+	div {
+		padding: 8px;
+	}
+	main {
+		padding: 8px;
+	}
+	h1 {
+		text-decoration: underline;
+		text-align: center;
+	}
+	a {
+		color: rgb(255,0,255);
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	img {
+		border: var(--border);
+		float: right;
+		margin: 4px;
+	}
+	a:visited {
+		color: rgb(205,0,205);
+	}
+	p {
+		margin: 4px;
+	}
+	ul {
+		list-style: square;
+		padding: 4px;
+		margin: 4px;
+		margin-left: 16px;
+	}
+}
 #holder {
 	width: var(--width);
 	margin: auto;
@@ -36,28 +78,6 @@
 	img {
 		margin-top: 20px;
 		margin-bottom: 16px;
-	}
-}
-#mainBody {
-	width: 76%;
-	padding: 6px;
-	font-size: 90%;
-	color: white;
-	h1 {
-		text-decoration: underline;
-		text-align: center;
-	}
-	a {
-		color: rgb(255,0,255);
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-	p {
-		margin-bottom: 13px;
-	}
-	main {
-		padding: 8px;
 	}
 }
 #body {

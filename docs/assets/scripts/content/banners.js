@@ -36,3 +36,7 @@ last.setGradient(white);
 new banner("stars.png");
 last.setGradient(white);
 new banner("clay_cat.png");
+new bannerUnclickableSplash("","Aaaaah! My textures... they're ACTUALLY gone...","255,255,255");
+last.setWeight(0.05);
+new bannerClickable("cat_clay_speech.png","/banner_list");
+last.setWeight(0.5);

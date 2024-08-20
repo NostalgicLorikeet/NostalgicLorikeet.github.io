@@ -7,5 +7,6 @@ defaults:
         layout: index
         description: Something on here...
         omitTitle: false
+        script: 
 
 layouts_dir: _layouts
