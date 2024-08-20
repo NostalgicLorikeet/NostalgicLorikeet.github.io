@@ -7,3 +7,8 @@ new sbSection("Overview","overview.png","true","true");
 		lastEntry.altIcon = "https://hitscan.org/assets/favicons/atabook.ico";
 	new sbLink("Banner","/banners","A list of banners used at the top of the site","false","true");
 	new sbLink("Credits","/credits","Credits for stuff on the website","true","true");
+new sbSection("Archives and mirrors","archives.png","true","true");
+	new sbLink("Gamemaker 1.4 manual archive","/dadiospice","Archive of the old Gamemaker 1.4 manual, which is no longer on YoYo Games' website","true","true");
+		new sbELink("Mirror on file server","https://files.hitscan.org/files_two/archives/gms1.4/","","true","false");
+		new sbELink("Navigable mirror","https://files.hitscan.org/files_two/archives/gms1.4/dadiospice/","","true","false");
+		new sbELink("Mirror on file server","https://files.hitscan.org/files_two/archives/gms1.4/dadiospice/","Another mirror but on the file server instead, unmodified from the original","false","true");
