@@ -17,10 +17,11 @@
 	font-size: 90%;
 	color: white;
 	* {
-		
+		word-break: break-word;
 	}
 	div {
 		padding: 4px;
+		overflow: hidden;
 	}
 	main {
 		padding: 4px;

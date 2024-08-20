@@ -69,12 +69,8 @@ class sbELink {
 		this.onSidebar = onSidebar;
 		this.onSitemap = onSitemap;
 		if (url.indexOf("https://") == 0) {
-			this.urlA = this.url.substring(8);
-			if (this.url.indexOf(this.url.length - 1) != "/") {
-				this.altIcon = "https://" + this.urlA + "/favicon.ico";
-			} else {
-				this.altIcon = "https://" + this.urlA.substring(0,this.urlA.indexOf("/")) + "/favicon.ico";
-			}
+			this.urlProcessor = new URL("this.url");
+			this.altIcon = this.urlProcessor.hostname + "/favicon.ico";
 		}
 		lastEntry.externals.push(this);
 	}

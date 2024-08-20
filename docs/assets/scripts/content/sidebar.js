@@ -5,7 +5,7 @@ new sbSection("Overview","overview.png","true","true");
 	new sbLink("About","/about","About me (and this site)","true","true");
 	new sbLink("Guestbook","https://nostalgiclorikeet.atabook.org","The guestbook, leave a message!","true","true");
 		lastEntry.altIcon = "https://hitscan.org/assets/favicons/atabook.ico";
-	new sbLink("Banner","/banners","A list of banners used at the top of the site","false","true");
+	new sbLink("Banners","/banners","A list of banners used at the top of the site","false","true");
 	new sbLink("Credits","/credits","Credits for stuff on the website","true","true");
 new sbSection("Archives and mirrors","archives.png","true","true");
 	new sbLink("Gamemaker 1.4 manual archive","/dadiospice","Archive of the old Gamemaker 1.4 manual, which is no longer on YoYo Games' website","true","true");

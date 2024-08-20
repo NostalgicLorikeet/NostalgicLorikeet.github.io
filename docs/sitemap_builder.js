@@ -7,7 +7,12 @@ function navListBuilder() {
 			currentList.setAttribute("class","navList");
 			
 			let currentListImage = document.createElement("img");
-			currentListImage.setAttribute("src","assets/navicons/" + entries[i].sitemapImage);
+			if (entries[i].sitemapImage != "") {
+				currentListImage.setAttribute("src","assets/navicons/" + entries[i].sitemapImage);
+			} else {
+				currentListImage.setAttribute("src","assets/navicons/overview.png");
+				currentListImage.setAttribute("style","filter: opacity(0.4);");
+			}
 			currentList.appendChild(currentListImage);
 			
 			let currentListTitle = document.createElement("h2");
