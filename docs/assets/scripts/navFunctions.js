@@ -49,7 +49,7 @@ class sbLink {
 		this.onSitemap = onSitemap;
 		if (url.indexOf("https://") == 0) {
 			this.urlProcessor = new URL(this.url);
-			this.altIcon = this.urlProcessor.hostname + "/favicon.ico";
+			this.altIcon = "https://" + this.urlProcessor.hostname + "/favicon.ico";
 		}
 		this.externals = [];
 		lastEntry = this;
@@ -66,7 +66,7 @@ class sbELink {
 		this.onSitemap = onSitemap;
 		if (url.indexOf("https://") == 0) {
 			this.urlProcessor = new URL(this.url);
-			this.altIcon = this.urlProcessor.hostname + "/favicon.ico";
+			this.altIcon = "https://" + this.urlProcessor.hostname + "/favicon.ico";
 		}
 		lastEntry.externals.push(this);
 	}
