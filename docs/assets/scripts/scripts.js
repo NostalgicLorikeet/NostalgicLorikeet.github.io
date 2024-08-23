@@ -22,6 +22,7 @@ const guestbook = document.getElementById("guestbookLinkA");
 const textworld = document.getElementById("guestbookLinkB");
 const cone = document.getElementById("cone");
 let coneClick = 0.01;
+let glowingText = 0;
 
 //Do these after page load
 function pageload() {
@@ -71,26 +72,48 @@ function pageload() {
 	//loadActivity();
 	buildSidebar();
 	
-	function getColor() {
-		return Math.floor(Math.random() * 255);
+	function getColor(shade) {
+		if (shade == 0) {
+			return Math.floor(155 + Math.random() * 100);
+		} else {
+			return Math.floor(Math.random() * 100);
+		}
 	}
 	
 	function guestbookLinkChangeColor() {
-		r = getColor();
-		g = getColor();
-		b = getColor();
-		rB = r + 25;
-		gB = g + 25;
-		bB = b + 25;
-		guestbook.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
-		//i dont care
-		r = getColor();
-		g = getColor();
-		b = getColor();
-		rB = r + 25;
-		gB = g + 25;
-		bB = b + 25;
-		textworld.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+		if (glowingText%2 == 0) {
+			r = getColor(0);
+			g = getColor(0);
+			b = getColor(0);
+			rB = r + 25;
+			gB = g + 25;
+			bB = b + 25;
+			guestbook.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+			r = getColor(1);
+			g = getColor(1);
+			b = getColor(1);
+			rB = r + 25;
+			gB = g + 25;
+			bB = b + 25;
+			textworld.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+		} else {
+			//i dont care
+			r = getColor(1);
+			g = getColor(1);
+			b = getColor(1);
+			rB = r + 25;
+			gB = g + 25;
+			bB = b + 25;
+			guestbook.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+			r = getColor(0);
+			g = getColor(0);
+			b = getColor(0);
+			rB = r + 25;
+			gB = g + 25;
+			bB = b + 25;
+			textworld.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+		}
+		glowingText++;
 		window.setTimeout(guestbookLinkChangeColor, 2000);
 	}
 	guestbookLinkChangeColor();

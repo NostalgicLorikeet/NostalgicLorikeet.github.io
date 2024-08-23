@@ -97,12 +97,12 @@ function buildSidebar() {
 						currentLinkIcon.setAttribute("src",entries[i].entries[a].altIcon);
 						currentLink.appendChild(currentLinkIcon);
 					}
-					compareLink = "https://www.hitscan.org" + entries[i].entries[a].url;
-					if (window.location.href == compareLink) {
+					compareLink = "https://www.hitscan.org/" + entries[i].entries[a].url;
+					if (window.location.href == compareLink || window.location.href == compareLink + "/") {
 						currentLinkTile.setAttribute("id","sidebarTileCurrent");
 					}
 					currentLink.appendChild(document.createTextNode(entries[i].entries[a].name));
-					currentLink.setAttribute("href",entries[i].entries[a].url);
+					currentLink.setAttribute("href","/" + entries[i].entries[a].url);
 					currentLinkTile.appendChild(currentLink);
 					currentSection.appendChild(currentLinkTile);
 					if (entries[i].entries[a].externals.length > 0) {
@@ -116,7 +116,7 @@ function buildSidebar() {
 								let currentExternalLinkImage = document.createElement("img");
 								currentExternalLinkImage.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
 								let currentExternalLinkA = document.createElement("a");
-								currentExternalLinkA.setAttribute("href",entries[i].entries[a].externals[b].url);
+								currentExternalLinkA.setAttribute("href","/" + entries[i].entries[a].externals[b].url);
 								currentExternalLinkTile.appendChild(currentExternalLinkImage);
 								currentExternalLinkTile.appendChild(currentExternalLinkA);
 								let currentExternalLinkAText = document.createTextNode(entries[i].entries[a].externals[b].name);
