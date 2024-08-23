@@ -5,7 +5,7 @@ title: Christmas photos
 Yearly Christmas group drawings.
 
 <style>
-#holder {
+#cholder {
 	display: flex;
 }
 .linkTo {
@@ -24,7 +24,7 @@ Yearly Christmas group drawings.
 }
 </style>
 
-<div id="holder">
+<div id="cholder">
 	<div class="linkTo" style="margin-left:auto;">
 		<a href="2022"><img src="2022_small.png"></a><br>
 		<a href="2022">2022</a>
