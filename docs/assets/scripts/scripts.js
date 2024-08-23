@@ -19,6 +19,7 @@ let activityPosition = 0;
 const activityList = document.getElementById("activityList");
 let activityLoaded = 0;
 const guestbook = document.getElementById("guestbookLinkA");
+const textworld = document.getElementById("guestbookLinkB");
 const cone = document.getElementById("cone");
 let coneClick = 0.01;
 
@@ -82,6 +83,14 @@ function pageload() {
 		gB = g + 25;
 		bB = b + 25;
 		guestbook.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
+		//i dont care
+		r = getColor();
+		g = getColor();
+		b = getColor();
+		rB = r + 25;
+		gB = g + 25;
+		bB = b + 25;
+		textworld.setAttribute("style","color: rgb(" + r + "," + g + "," + b + "); text-shadow: 0px 0px 8px rgb(" + rB +","+gB+"," + bB +");");
 		window.setTimeout(guestbookLinkChangeColor, 2000);
 	}
 	guestbookLinkChangeColor();

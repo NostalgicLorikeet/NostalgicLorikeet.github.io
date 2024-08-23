@@ -73,7 +73,7 @@ class banner {
 	
 	docChange() {
 		document.getElementById("splashHolderWordless").style.display = "none";
-		document.getElementById("splashHolder").style.display = "none";	
+		document.getElementById("splashHolder").style.display = "none";
 		document.getElementById("splashSpan").style.display = "none";	
 	}
 	
@@ -168,6 +168,10 @@ class bannerUnclickableSplash extends bannerSplash {
 		document.getElementById("splashSpan").style.display = "none";	
 		//document.getElementById("splashLink").setAttribute("href","");
 	}
+	
+	set() {
+		super.set()
+	}
 }
 
 //functions that actually modify the webpage
@@ -190,6 +194,7 @@ function bannerSelector() {
 	for (let i = 0; i < banners.length; i++) {
 		weightPoint += banners[i].weight;
 		if (weightPoint >= selectionPoint) {
+			//i will shoot you in the face
 			return banners[i];
 		}
 	}

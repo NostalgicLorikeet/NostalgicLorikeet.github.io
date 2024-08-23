@@ -40,6 +40,25 @@ function navListBuilder() {
 						currentListListEntryDesc.appendChild(currentListListEntryDescText);
 						currentListListEntry.appendChild(currentListListEntryDesc);
 					}
+					if (entries[i].entries[a].externals.length != 0) {
+						let externalLinksList = document.createElement("ul");
+						currentListListEntry.appendChild(externalLinksList);
+						for (let c = 0; c < entries[i].entries[a].externals.length; c++) {
+							if (entries[i].entries[a].externals[c].onSitemap == "true") {
+								let externalLinkListEntry = document.createElement("li");
+								externalLinksList.appendChild(externalLinkListEntry);
+								let externalLinkLinkText = document.createElement("a");
+								externalLinkLinkText.setAttribute("href",entries[i].entries[a].externals[c].url);
+								externalLinkLinkText.innerHTML = entries[i].entries[a].externals[c].name;
+								externalLinkListEntry.appendChild(externalLinkLinkText);
+								if (entries[i].entries[a].externals[c].sitemapDescription.length > 0) {
+									let externalLinkDesc = document.createElement("span");
+									externalLinkDesc.innerHTML = " - " + entries[i].entries[a].externals[c].sitemapDescription;
+									externalLinkListEntry.appendChild(externalLinkDesc);
+								}
+							}
+						}
+					}
 				}
 			content.appendChild(currentList);
 			}
