@@ -12,6 +12,7 @@ Yearly Christmas group drawings.
 	margin: 4px;
 	background: rgba(255,255,255,0.4);
 	text-align: center;
+	padding: 16px;
 	img {
 		height: 64px;
 		width: auto;

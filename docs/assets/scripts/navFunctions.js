@@ -91,18 +91,19 @@ function buildSidebar() {
 					let currentLink = document.createElement("a");
 					if (entries[i].entries[a].url.indexOf("https://") != 0) {
 						currentLinkTile.setAttribute("class","sidebarTile");
+						currentLink.setAttribute("href","/" + entries[i].entries[a].url);
 					} else {
 						currentLinkTile.setAttribute("class","sidebarTileIcon");
 						let currentLinkIcon = document.createElement("img");
 						currentLinkIcon.setAttribute("src",entries[i].entries[a].altIcon);
 						currentLink.appendChild(currentLinkIcon);
+						currentLink.setAttribute("href",entries[i].entries[a].url);
 					}
 					compareLink = "https://www.hitscan.org/" + entries[i].entries[a].url;
 					if (window.location.href == compareLink || window.location.href == compareLink + "/") {
 						currentLinkTile.setAttribute("id","sidebarTileCurrent");
 					}
 					currentLink.appendChild(document.createTextNode(entries[i].entries[a].name));
-					currentLink.setAttribute("href","/" + entries[i].entries[a].url);
 					currentLinkTile.appendChild(currentLink);
 					currentSection.appendChild(currentLinkTile);
 					if (entries[i].entries[a].externals.length > 0) {

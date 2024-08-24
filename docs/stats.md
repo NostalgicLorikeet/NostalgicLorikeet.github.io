@@ -32,8 +32,13 @@ function runStats() {
 	document.getElementById("sidebarcount").innerHTML = " - " + sidebarEntriesCount + " total (" + sidebarMainsCount + " non-dropdown links, " + sidebarExternalsCount + " dropdown links) with " + sidebarHiddenCount + " hidden from sidebar (" + entries.length + " sections, with "+sidebarSectionsHiddenCount+" hidden from sidebar)";
 }
 </script>
-<h2>The site</h2>
+# The site
 <ul>
 	<li>Number of random <a href="/banners">banners</a><span id="bannercount"></span></li>
 	<li>Number of <a href="/sitemap">sidebar entries</a><span id="sidebarcount"></span></li>
 </ul>
+
+# Server PC specs
+- File server (and other stuff) runs off a **[Beelink SER5 Mini PC](https://www.amazon.com/Beelink-SER5-5560U-500GB-Computer/dp/B0B3WYVB2D)** with 32GB of RAM
+- Drives:
+	- Seagate Portable 2TB External HDD (STGX2000400)
