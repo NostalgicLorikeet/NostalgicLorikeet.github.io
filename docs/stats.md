@@ -40,5 +40,5 @@ function runStats() {
 
 # Server PC specs
 - File server (and other stuff) runs off a **[Beelink SER5 Mini PC](https://www.amazon.com/Beelink-SER5-5560U-500GB-Computer/dp/B0B3WYVB2D)** with 32GB of RAM
-- Drives:
+- Drives (besides internal):
 	- Seagate Portable 2TB External HDD (STGX2000400)

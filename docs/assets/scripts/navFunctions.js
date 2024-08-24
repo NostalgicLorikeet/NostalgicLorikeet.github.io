@@ -19,7 +19,7 @@ function loadNavLinks() {
 		navbarSection.setAttribute("class","navbarLink");
 		let navbarSectionLink = document.createElement("a");
 		navbarSectionLink.setAttribute("href",navbarLinks[i].url);
-		let navbarSectionLinkTextNode = document.createTextNode(navbarLinks[i].title);
+		let navbarSectionLinkTextNode = document.createTextNode("> " + navbarLinks[i].title);
 		navbarSectionLink.appendChild(navbarSectionLinkTextNode);
 		navbarSection.appendChild(navbarSectionLink);
 		navbarLinkHolder.appendChild(navbarSection);

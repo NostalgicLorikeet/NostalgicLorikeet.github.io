@@ -35,7 +35,7 @@ new banner("cones_03.png");
 last.setGradient(white);
 new banner("stars.png");
 last.setGradient(white);
-new banner("clay_cat.png");
+new bannerClickable("clay_cat.png","/art/3d");
 new bannerUnclickableSplash("","Aaaaah! My textures... they're ACTUALLY gone...","255,255,255");
 last.setWeight(0.05);
 new bannerClickable("cat_clay_speech.png","/art/3d");

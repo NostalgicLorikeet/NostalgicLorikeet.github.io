@@ -10,7 +10,6 @@ Yearly Christmas group drawings.
 }
 .linkTo {
 	margin: 4px;
-	background: rgba(255,255,255,0.4);
 	text-align: center;
 	padding: 16px;
 	img {
