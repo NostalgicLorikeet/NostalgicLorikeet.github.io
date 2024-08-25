@@ -22,7 +22,7 @@ function loadNavLinks() {
 		let navbarSectionLinkTextNode = document.createTextNode(navbarLinks[i].title);
 		let navbarSectionLinkSpan = document.createElement("span");
 		let navbarSectionLinkSpanText = document.createTextNode(">");
-		navbarSectionLinkSpanText.setAttribute("style","font-size: 50%");
+		navbarSectionLinkSpan.setAttribute("style","font-size: 50%");
 		navbarSectionLinkSpan.appendChild(navbarSectionLinkSpanText);
 		navbarSectionLink.appendChild(navbarSectionLinkSpan);
 		navbarSectionLink.appendChild(navbarSectionLinkTextNode);
