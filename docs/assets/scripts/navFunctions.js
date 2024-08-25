@@ -122,6 +122,16 @@ function buildSidebar() {
 								let currentExternalLinkImage = document.createElement("img");
 								currentExternalLinkImage.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
 								let currentExternalLinkA = document.createElement("a");
+								if (entries[i].entries[a].externals[b].url.indexOf("https://") != 0) {
+									currentLinkTile.setAttribute("class","sidebarTile");
+									currentLink.setAttribute("href","/" + entries[i].entries[a].externals[b].url);
+								} else {
+									currentLinkTile.setAttribute("class","sidebarTileIcon");
+									let currentLinkIcon = document.createElement("img");
+									currentLinkIcon.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
+									currentLink.appendChild(currentLinkIcon);
+									currentLink.setAttribute("href",entries[i].entries[a].externals[b].url);
+								}
 								currentExternalLinkA.setAttribute("href","/" + entries[i].entries[a].externals[b].url);
 								currentExternalLinkTile.appendChild(currentExternalLinkImage);
 								currentExternalLinkTile.appendChild(currentExternalLinkA);
