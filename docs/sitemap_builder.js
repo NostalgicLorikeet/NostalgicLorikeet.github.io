@@ -29,7 +29,7 @@ function navListBuilder() {
 					let currentListListEntry = document.createElement("li");
 					currentListList.appendChild(currentListListEntry);
 					let currentListListEntryLink = document.createElement("a");
-					currentListListEntryLink.setAttribute("href","/" + entries[i].entries[a].url);
+					currentListListEntryLink.setAttribute("href", entries[i].entries[a].url);
 					currentListListEntryLink.setAttribute("style","font-weight:bold;");
 					let currentListListEntryLinkText = document.createTextNode(entries[i].entries[a].name);
 					currentListListEntryLink.appendChild(currentListListEntryLinkText);

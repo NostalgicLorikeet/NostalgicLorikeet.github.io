@@ -55,6 +55,8 @@ class sbLink {
 		if (url.indexOf("https://") == 0) {
 			this.urlProcessor = new URL(this.url);
 			this.altIcon = "https://" + this.urlProcessor.hostname + "/favicon.ico";
+		} else {
+			this.url = "/" + this.url
 		}
 		this.externals = [];
 		lastEntry = this;
