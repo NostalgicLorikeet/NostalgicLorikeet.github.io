@@ -12,8 +12,9 @@ For downloading the more complicated directories, I recommend using a program li
 - [X-Static Goldmine](https://files.hitscan.org/files_two/samples/X-Static%20Goldmine/) - Another old, classic, discontinued, and uncleared set of sample discs. This time a set by the company Polestar Magnetics.
 - [X-Pert Media Morbid Minds](https://files.hitscan.org/files_two/samples/X-pert.Media.Morbid.Minds.WAV-ALFiSO/) - A *really* obscure sample CD. Another thing that I'm probably one of the only people hosting an archive of. Found this through a torrent with one really slow seeder I found on some random site.
 - [OE Cake](https://files.hitscan.org/files_two/archives/OE-CAKE!.zip) - A 2D physics simulator from around 2008 by the company Prometech Software. Simple but with a surprising amount of depth and a bit of a cult following behind it as well.
-- [Unfavorable Semicircle archive](https://files.hitscan.org/files_two/archives/Unfavorable%20Semicircle%20Archive.rar) - Archive of videos from the mysterious Unfavorable Semicircle channel, and the various related ones
-- [morphtargets bao](https://files.hitscan.org/files_two/archives/morphtargets%20bao.rar) - An old 3D animation project for Gamemaker: Studio 1.4 that I found
-- [More Gamemaker stuff](https://files.hitscan.org/files_two/archives/gamemaker/) - More old Gamemaker stuff, usually for GMS 1.4 or older
+- [Unfavorable Semicircle archive](https://files.hitscan.org/files_two/archives/Unfavorable%20Semicircle%20Archive.rar) - Archive of videos from the mysterious Unfavorable Semicircle channel, and the various related ones.
+- [morphtargets bao](https://files.hitscan.org/files_two/archives/morphtargets%20bao.rar) - An old 3D animation project for Gamemaker: Studio 1.4 that I found,
+- [More Gamemaker stuff](https://files.hitscan.org/files_two/archives/gamemaker/) - More old Gamemaker stuff, usually for GMS 1.4 or older,
 - [Undertale reversing](https://files.hitscan.org/files_two/archives/undertale/) - Mirror of undertale.rawr.rs (or more specifically, [tomat.dev's (actually updated) copy](https://tomat.dev/undertale/)).
 - [Drawball archive](https://files.hitscan.org/files_two/archives/drawball/) - Mirror of videos of drawball recorded by HDF, whose channel has been terminated from YouTube. Also available [here](https://smaert.com/chaos).
+- [Nem's Tools](https://files.hitscan.org/files_two/archives/nem's%20tools/) - Archive of Nem's Source Engine tools from nemesis.thewavelength.net.
