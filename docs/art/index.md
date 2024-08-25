@@ -9,6 +9,8 @@ For a more thorough set of things, check [Newgrounds](https://nostalgiclorikeet.
 
 For OCs/characters, see [here](/art/characters).
 
+I use [Krita](https://krita.org/en/) to draw.
+
 <style>
 #soulja {
 	border: var(--border);

@@ -2,7 +2,7 @@
 title: About
 ---
 ![image](about_icon.png)
-This is the website of **Nostalgic**, or **NostalgicLorikeet**, or **miles**. I can [draw](/art), [model](/art/3d), and [map](/gmod_maps).
+This is the website of **Nostalgic**, or **NostalgicLorikeet**, or **miles**. I can [draw](/art), [model](/art/3d), and [map](/gmod/maps).
 
 # To-do
 1. Make sidebar collapsible

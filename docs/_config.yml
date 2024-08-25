@@ -5,7 +5,7 @@ defaults:
     values:
         title: 
         layout: index
-        description: {{page.title}} on hitscan.org
+        description: ""
         omitTitle: false
         script: 
 

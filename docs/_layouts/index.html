@@ -5,13 +5,13 @@
 		<title>{{ page.title }} - hitscan.org</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="keywords" content="NostalgicLorikeet, Nostalgic, Nosstalgic, @Nosstalgic, miles">
-		<meta name="description" content="hitscan.org">
+		<meta name="description" content="{% if page.description == "" %}{{ page.title }} on hitscan.org{% else %}{{ page.description }}{% endif %}">
 		<meta property="og:title" content="{{ page.title }} - hitscan.org">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="/assets/favicon.png">
-		<meta property="og:description" content="{{ page.description }}">
-		<meta property="og:site_name" content="hitscan.org">
-		<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+		<meta property="og:description" content="{% if page.description == "" %}{{ page.title }} on hitscan.org{% else %}{{ page.description }}{% endif %}">
+		<meta property="og:site_name" content="hitscan.org">             
+		<link rel="icon" href="/assets/favicon.png" type="image/x-icon"> 
 		<link id="styletag" rel="stylesheet" href="/assets/styles/default.css">
 	</head>
 	<style id="bannerSelector">
