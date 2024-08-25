@@ -15,5 +15,5 @@ For downloading the more complicated directories, I recommend using a program li
 - [Unfavorable Semicircle archive](https://files.hitscan.org/files_two/archives/Unfavorable%20Semicircle%20Archive.rar) - Archive of videos from the mysterious Unfavorable Semicircle channel, and the various related ones
 - [morphtargets bao](https://files.hitscan.org/files_two/archives/morphtargets%20bao.rar) - An old 3D animation project for Gamemaker: Studio 1.4 that I found
 - [More Gamemaker stuff](https://files.hitscan.org/files_two/archives/gamemaker/) - More old Gamemaker stuff, usually for GMS 1.4 or older
-- [Undertale reversing](https://files.hitscan.org/files_two/archives/undertale/) - Mirror of undertale.rawr.rs (or more specifically, [tomat.dev's (actually updated) copy](tomat.dev/undertale/).
-- [Drawball archive](https://files.hitscan.org/files_two/archives/drawball/) - Mirror of videos of drawball recorded by HDF, whose channel has been terminated from YouTube. Alaos available [here](https://smaert.com/chaos).
+- [Undertale reversing](https://files.hitscan.org/files_two/archives/undertale/) - Mirror of undertale.rawr.rs (or more specifically, [tomat.dev's (actually updated) copy](tomat.dev/undertale/)).
+- [Drawball archive](https://files.hitscan.org/files_two/archives/drawball/) - Mirror of videos of drawball recorded by HDF, whose channel has been terminated from YouTube. Also available [here](https://smaert.com/chaos).
