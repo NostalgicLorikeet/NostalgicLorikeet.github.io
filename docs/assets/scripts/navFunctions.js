@@ -106,7 +106,7 @@ function buildSidebar() {
 						let currentLinkIcon = document.createElement("img");
 						currentLinkIcon.setAttribute("src",entries[i].entries[a].altIcon);
 						currentLink.appendChild(currentLinkIcon);
-						currentLink.setAttribute("href",entries[i].entries[a].url);
+						currentLink.setAttribute("href", "/" + entries[i].entries[a].url);
 					}
 					compareLink = "https://www.hitscan.org/" + entries[i].entries[a].url;
 					if (window.location.href == compareLink || window.location.href == compareLink + "/") {
