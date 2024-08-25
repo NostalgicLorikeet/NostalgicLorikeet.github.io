@@ -72,6 +72,8 @@ class sbELink {
 		if (url.indexOf("https://") == 0) {
 			this.urlProcessor = new URL(this.url);
 			this.altIcon = "https://" + this.urlProcessor.hostname + "/favicon.ico";
+		} else {
+			this.altIcon = "/favicon.ico";
 		}
 		lastEntry.externals.push(this);
 	}
@@ -117,27 +119,17 @@ function buildSidebar() {
 						currentLinkTile.appendChild(currentLinkTileExternalList);
 						for (let b = 0; b < entries[i].entries[a].externals.length; b++) {
 							if (entries[i].entries[a].externals[b].onSidebar == "true") {
-								let currentExternalLinkTile = document.createElement("div");
-								currentExternalLinkTile.setAttribute("class","sidebarTileIcon");
-								let currentExternalLinkImage = document.createElement("img");
-								currentExternalLinkImage.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
-								let currentExternalLinkA = document.createElement("a");
-								if (entries[i].entries[a].externals[b].url.indexOf("https://") != 0) {
-									currentLinkTile.setAttribute("class","sidebarTile");
-									currentLink.setAttribute("href","/" + entries[i].entries[a].externals[b].url);
-								} else {
-									currentLinkTile.setAttribute("class","sidebarTileIcon");
-									let currentLinkIcon = document.createElement("img");
-									currentLinkIcon.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
-									currentLink.appendChild(currentLinkIcon);
-									currentLink.setAttribute("href",entries[i].entries[a].externals[b].url);
+									let extLinkTile = document.createElement("div");
+									extLinkTile.setAttribute("class","sidebarTileIcon");
+									let extLinkTileIcon = document.createElement("img");
+									extLinkTileIcon.setAttribute("src",entries[i].entries[a].externals[b].altIcon);
+									let extLinkTileLink = document.createElement("a");
+									extLinkTileLink.setAttribute("href",entries[i].entries[a].externals[b].url);
+									extLinkTileLink.appendChild(document.createTextNode(entries[i].entries[a].externals[b].name));
+									extLinkTile.appendChild(extLinkTileIcon);
+									extLinkTile.appendChild(extLinkTileLink);
+									currentLinkTileExternalList.appendChild(extLinkTile);
 								}
-								currentExternalLinkA.setAttribute("href","/" + entries[i].entries[a].externals[b].url);
-								currentExternalLinkTile.appendChild(currentExternalLinkImage);
-								currentExternalLinkTile.appendChild(currentExternalLinkA);
-								let currentExternalLinkAText = document.createTextNode(entries[i].entries[a].externals[b].name);
-								currentExternalLinkA.appendChild(currentExternalLinkAText);
-								currentLinkTileExternalList.appendChild(currentExternalLinkTile);
 							}
 						}
 					}
@@ -145,4 +137,3 @@ function buildSidebar() {
 			}
 		}
 	}
-}
