@@ -47,6 +47,7 @@ class sbLink {
 	constructor(name,url,sitemapDescription,onSidebar,onSitemap) {
 		this.name = name;
 		this.url = url;
+		
 		this.sitemapDescription = sitemapDescription;
 		this.onSidebar = "true";
 		this.onSidebar = onSidebar;
@@ -55,7 +56,7 @@ class sbLink {
 		if (url.indexOf("https://") == 0) {
 			this.urlProcessor = new URL(this.url);
 			this.altIcon = "https://" + this.urlProcessor.hostname + "/favicon.ico";
-		} else {
+		} else if (url.indexOf("/") != 0) {
 			this.url = "/" + this.url
 		}
 		this.externals = [];
@@ -100,7 +101,7 @@ function buildSidebar() {
 					let currentLink = document.createElement("a");
 					if (entries[i].entries[a].url.indexOf("https://") != 0) {
 						currentLinkTile.setAttribute("class","sidebarTile");
-						currentLink.setAttribute("href","/" + entries[i].entries[a].url);
+						currentLink.setAttribute("href",entries[i].entries[a].url);
 					} else {
 						currentLinkTile.setAttribute("class","sidebarTileIcon");
 						let currentLinkIcon = document.createElement("img");
