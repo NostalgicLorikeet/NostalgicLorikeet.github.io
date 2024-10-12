@@ -1,5 +1,5 @@
 ---
-title: Those Who Know💀 generator word sources
+title: Those Who Know 💀 generator word sources
 description: Word sources... THOSE WHO KNOW💀
 ---
 
