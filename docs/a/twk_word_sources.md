@@ -3,6 +3,8 @@ title: Those Who Know 💀 generator word sources
 description: Word sources... THOSE WHO KNOW💀
 ---
 
+The [Those Who Know 💀 generator](/thosewhoknow).
+
 Word lists were generated using [PetScan](https://en.wikipedia.org/wiki/Wikipedia:PetScan). I used Wiktionary because it has a lot more weird shit a normal dictionary wouldn't have.
 
 The demonym list was generated using all entries in categories [en:Demonyms](https://en.wiktionary.org/wiki/Category:en:Demonyms), [en:Demonyms](https://en.wiktionary.org/wiki/Category:en:Demonyms), and [en:Nationalities](https://en.wiktionary.org/wiki/Category:en:Nationalities). The list can be found [here](/thosewhoknow/demonyms.js).
