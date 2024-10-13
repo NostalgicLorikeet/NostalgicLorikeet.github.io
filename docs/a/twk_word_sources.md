@@ -16,3 +16,5 @@ The extended verb list was generated using all [English words ending in -ing](ht
 The infinitives list was generated using all entries in both the [English verbs](https://en.wiktionary.org/wiki/Category:English_verbs) and [English nouns](https://en.wiktionary.org/wiki/Category:English_nouns) categories. The list can be found [here](/thosewhoknow/infinitives.js).
 
 There are probably a lot of fucked up things that got caught in the list.
+
+There are a total of 43,937,784 possible phrases in the generator.
