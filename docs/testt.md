@@ -1,7 +1,7 @@
 ---
 title: Tast
 ---
-![image](/art/index/1.png)
+![image](/art/art_index/1.png)
 *empghasis help i cat see ny keboard*
 
 This is a test page. It may awesome or it may not idk.
@@ -31,7 +31,7 @@ This is the website of **Nostalgic**, or **NostalgicLorikeet**, or **miles**. I 
 # To-do
 1. Make sidebar collapsible
 2. Fix banner captions being broken and horrible
-![image](/art/index/2.png)
+![image](/art/art_index/2.png)
 
 >block quort
 >>block quote
@@ -211,4 +211,13 @@ I gotta boner pick
 - [ ] Contact the media
 - [x] die
 
-I need to highlight these ==very important words==.
+I need to highlight these <mark>very important words</mark>.
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
