@@ -38,7 +38,7 @@ This is the website of **Nostalgic**, or **NostalgicLorikeet**, or **miles**. I 
 >block quart
 >>block quote=;e
 
-``
+```
 function pageload() {
 	styletag.setAttribute("href","/assets/styles/default.css");
 	/*if (typeof localStorage.styleCurrent == 'undefined') {
@@ -139,7 +139,7 @@ function pageload() {
 	}
 	coneFlicker();*/
 }
-``
+```
 
 # have function
 This page is mostly related to mirrors of things that I did *not* make. For archives of stuff that I did make or was involved with, check out the "Old stuff" section on the [sitemap](/sitemap).
@@ -171,3 +171,44 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 
 what
+
+# plipe
+
+| Syntax      | Description | Description |
+| ----------- | ----------- | ----------- |
+| Header      | Title       | Kendrick Lamar       |
+| Paragraph   | Text        | Text        |
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+	
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+I gotta boner pick
+: lol
+
+
+
+~~The world is flat.~~ We now know that the world is plound.
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+- [x] die
+
+I need to highlight these ==very important words==.
