@@ -2,7 +2,7 @@
 title: Tast
 ---
 ![image](/art/art_index/2.png)
-![image](/art/art_index/3.png)
+![image](/art/art_index/4.png)
 *empghasis help i cat see ny keboard*
 
 This is a test page. It may awesome or it may not idk.
